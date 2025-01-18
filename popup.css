@@ -1,0 +1,68 @@
+/* css for my extension */
+/* Ha Ha it is beautiful */
+
+body {
+    font-family: 'Comic Sans MS', sans-serif; 
+    text-align: center;
+    background-color: #00fa1d3b; 
+    margin: 0;
+    padding: 0;
+    border-radius: 5px; 
+  }
+  
+  .stopwatch-container {
+    padding: 25px;
+    padding-left: 2px;
+    padding-right: 5px ;
+    border: 2px solid #ff6600; 
+    border-radius: 10px; 
+    width: 310px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ffffff00; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); 
+    justify-items: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #008564; 
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  #time-display {
+    font-size: 40px;
+    margin: 20px 0;
+    color: #332d1cbd; 
+    font-weight: bold;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around; 
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold; 
+    color: #ffffff; 
+    background-color: #000000; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  button:hover {
+    background-color: #ff6767;
+  }
+  
+  button:active {
+    background-color: #36648b; 
+  }
+  
